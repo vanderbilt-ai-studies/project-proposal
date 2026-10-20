@@ -1,77 +1,57 @@
 # Idea starters
 
-For a student who arrives with an interest but no project. Use these to build three
-candidate ideas that fit *this* student; do not read the list out.
+Use these when a student has an interest but no project. Begin with their experience and
+what they wish were possible, then offer a few distinct directions. These are possibilities,
+not a menu of required technologies or projects to copy.
 
-## Picking data
+## AI 1010 — expand what the student is willing to attempt
 
-The data decides whether the idea survives. In order of preference:
+Read [the final-project description](ai1010-final-project.md). Ask what felt beyond reach
+before this course and what the student understands that an AI would need to learn from them.
+Do not begin by hunting for a dataset or proposing the smallest task that passes a rubric.
 
-1. **Data already on their laptop.** A spreadsheet they keep, photos they took, notes, a
-   game's saved match history. In hand by definition.
-2. **Their own account export, already downloaded.** Fitness apps, music streaming, Google
-   Takeout, a reading tracker. Many exports take days, some up to a month, to arrive: if it
-   is not downloaded yet, tell them to request it today and do not build the proposal on it
-   until it lands.
-3. **A public dataset that needs no account, application or agreement**, downloaded and
-   opened before they submit. Government open-data portals, university data repositories,
-   free public APIs with no key. Some popular dataset sites require a login to download; an
-   account they can make in a minute is fine, an application that someone has to approve is
-   not.
-4. **Anything else** (data owned by a lab, a company, a hospital, a club's member records,
-   people they plan to survey) needs someone else's permission and usually an approval. Steer
-   away from it for a one-semester project.
-
-Never name a specific dataset as if you have checked it. Say what kind of source to look for,
-and ask the student to confirm it downloads and opens before they submit.
-
-Their own data can still be sensitive: location traces, health and heart-rate data, messages
-that include other people. That is fine to use; the proposal names it and says how it is
-protected (stays on their laptop, coordinates stripped, other people's names removed).
-
-## Shapes that work
-
-Each is a template; fill it with the student's interest.
-
-| Shape | Question it answers | Typical first-month milestone |
+| Interest or experience | An ambition to explore | A demonstration that tests the promise |
 |---|---|---|
-| **Predict and explain** | Which factors explain X, and can a model predict X better than the obvious guess? | Cleaned data and a baseline error |
-| **Sort or classify** | Can I label these N things automatically, and how often is it wrong? | Hand-labelled sample and a first classifier |
-| **Find structure** | Do these items fall into natural groups, and do the groups mean anything? | Features built, first clustering with examples |
-| **Text analysis** | What do these documents say, how has it changed, how do two sources differ? | Corpus collected and cleaned, first topic or sentiment pass |
-| **Compare methods** | Which of these approaches works best on this data, and why? | Shared evaluation set and one method scored |
-| **Detect change or anomaly** | When did something unusual happen in this time series? | Series assembled, baseline detector |
+| Music or performance | A rehearsal partner that responds to a performer's choices and helps them develop a piece | A focused rehearsal interaction that responds meaningfully to different performances; verify available audio tools before promising real-time capability |
+| Career exploration | A counselor that develops with a student, connects experiences to opportunities, and helps them act over time | Two sessions showing that saved goals and experiences meaningfully change the guidance |
+| Community or nonprofit work | Give a small organization a capability it could not afford to commission | A representative task completed with permitted public or example materials, judged against the organization's actual need |
+| History, literature, or archives | Let people investigate a collection in a way that reveals connections they could not easily find before | An interactive exploration with traceable sources and a challenging query that tests whether claims are grounded |
+| Learning and teaching | Create a learning experience that adapts to a learner's explanation or misconception | Different learner responses produce substantively different, accurate teaching moves |
+| Science or public policy | Help people explore a complicated body of evidence and understand what it does and does not establish | A question traced to evidence, a comparison with current practice, and a case requiring an honest limit |
+| Design, art, or games | Invent an experience that responds to the participant's choices | A playable or usable interaction showing the central creative idea, with judged quality beyond merely generating content |
 
-## By interest
+The student's project may be software built by an agent, skills/plugins, an agent workflow,
+an interactive experience, or another agreed creation. AI need not run inside the final
+product. Training a model, deploying a website, and adding persistent memory are options,
+not badges of ambition. A familiar idea can be ambitious when the student's application
+changes what a particular person or community can do. Do not require worldwide novelty.
 
-Starting points, not projects. Each still needs data in hand and a one-sentence deliverable.
+Plan an early test of the central promise after the scoping meeting. Identify uncertain
+capabilities or access for discussion; do not claim that live integrations are available
+because an example mentions them. Strengthen an exciting vision by finding a credible way
+to investigate it, rather than redirecting every student into classification or regression.
 
-- **Sports and fitness:** what predicts a pace, a score or a win; classifying plays or
-  exercises from logs or video they recorded.
-- **Music:** clustering their listening history; predicting what they skip; comparing lyrics
-  across genres or decades.
-- **Health and wellbeing** (their own data only): sleep against activity or screen time,
-  stated as personal analysis, not diagnosis.
-- **Environment and cities:** air quality, weather, transit or bike-share open data; what
-  explains demand or pollution on a given day.
-- **Politics, policy and law:** text analysis of public speeches, bills or rulings; how
-  language shifts over time or across parties.
-- **Business and economics:** public prices, reviews or filings; forecasting, or what drives
-  a rating.
-- **Arts and humanities:** public-domain texts or digitised collections; authorship, style,
-  theme change across a period.
-- **Games:** match histories or public game data; what predicts a win, which strategies
-  cluster together.
-- **Science majors:** a public dataset from their own field; reproduce a published simple
-  result, then try one improvement.
-- **Campus life:** only with public or their own data. Records about other students are
-  sensitive and need approvals; avoid.
+## Sources, materials, and access
 
-## Matching the program
+Essential materials may be domain expertise, public documents, sample tasks, creative works,
+example inputs, existing software, or data. Ask what the student already has and may use.
 
-- **AI 1010:** one clear question, one dataset, a baseline and one or two models, a written
-  answer. Spreadsheet-sized data is fine.
-- **Minor:** the same, with a more deliberate evaluation or a second data source.
-- **MSAI and MSDS:** a design a reader would learn from: a proper validation scheme, error
-  analysis, a non-trivial pipeline or model, or a comparison against published results. For
-  an MSDS capstone, something they would show an employer.
+For a data-dependent idea, a downloaded export or an opened public dataset is stronger than
+a promised source. Confirm size and access instead of inventing them. Allow a bounded public
+or synthetic example to test an idea when an optional integration is unavailable, with a
+clear statement of what such a test cannot establish. Do not let the central plan depend on
+an uncertain external approval. Do not require students to finish a dataset or prototype
+before the meeting.
+
+Personal ownership does not remove privacy concerns: health data, locations, or messages
+may include sensitive information about the student or others. Explain the proposed handling
+and permissions. Never claim a named dataset or platform has been checked unless it has.
+
+## Other programs
+
+For AI minor, MSAI, and MSDS projects, match depth to actual course requirements and student
+preparation. Data-oriented directions can include prediction, classification, clustering,
+text analysis, method comparison, or anomaly detection. Discuss sources, baseline,
+evaluation, leakage, error analysis, and a meaningful result as appropriate. Graduate work
+should have the depth and evaluation expected by its program. AI 1010 is not automatically
+a miniature version of an MSDS capstone.

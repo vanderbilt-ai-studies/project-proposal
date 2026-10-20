@@ -1,7 +1,8 @@
 # Project proposal helper
 
 A Claude skill that helps you go from an interest or a rough idea to a project proposal
-for the **Vanderbilt AI Studies project board**, written to pass review the first time.
+for the **Vanderbilt AI Studies project board** and, for AI 1010, the instructor meeting
+before building an ambitious final project.
 
 It's for AI 1010, AI minor, MSAI and MSDS students proposing **their own** project. To
 browse projects other people have posted, use the board itself:
@@ -38,20 +39,31 @@ that `SKILL.md` sits at the top of the zip. Upload that zip under **Settings →
 
 A conversation that helps you:
 
-1. find an idea, if you don't have one yet
-2. check it has data you can use today, a clear deliverable, and real AI work
-3. scope it to a semester, with a first-month milestone
-4. draft every field of the **Submit a Project** form, ready to paste
-5. check the draft against the same bar the reviewer uses
+1. explore what you would attempt if technical implementation no longer stopped you
+2. connect the ambition to your expertise and what AI makes possible
+3. plan a demonstration of the central promise, with materials, evidence, and realistic time
+4. prepare your proposal and questions for the instructor meeting
+5. reuse that work to draft the **Submit a Project** fields and check for missing facts
+
+**AI 1010: swing for the fences.** Your project can be software built with AI, skills,
+an agent workflow, an interactive experience, or another agreed creation. No predictive
+dataset or model training is required. Read the
+[final-project description](.claude/skills/project-proposal/references/ai1010-final-project.md).
+Other programs retain their own requirements for methods, depth, and evaluation.
 
 It never submits anything for you. You sign in at the board, choose **Submit a Project →
 "A student, for myself"**, and paste each section in. A person reviews every student
 proposal.
 
-AI 1010 students: once your project is approved, book your 15-minute check-in from the
-board.
+AI 1010 students: share your proposal before your **15-minute instructor/team meeting**.
+Complete the meeting and agree the project plan **before you begin building**. Follow the
+board's submission/booking order and the currently posted course dates; board acceptance
+alone does not replace this conversation.
 
 ---
 
-*Maintainers:* the source of truth is `.claude/skills/project-proposal/` in the AI Studies
-infrastructure repo. Change it there, then copy it here.
+*Maintainers:* this repository distributes `.claude/skills/project-proposal/`, including
+the AI 1010 course guidance. Keep any maintained infrastructure copy in sync. The board's
+separate deployed reviewer is `app/chatbot/review_prompt.md` in the infrastructure repo;
+changing this skill does not change that service. Review and align that prompt separately
+rather than claiming the helper guarantees board approval.
