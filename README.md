@@ -7,6 +7,10 @@ It's for AI 1010, AI minor, MSAI and MSDS students proposing **their own** proje
 browse projects other people have posted, use the board itself:
 <https://bit.ly/vanderbilt-ai-projects>.
 
+New to the board? Read the student guide first:
+[onboarding/student-guide.md](onboarding/student-guide.md)
+([PDF](onboarding/student-guide.pdf)).
+
 ## Use it with Claude Code
 
 ```sh
