@@ -41,7 +41,7 @@ Create the repo and proposal before the consult; begin implementation afterward.
 
 ## Direct the work through your repository
 
-After the consult, have Claude help create `SPEC.md`, persistent guidance in `CLAUDE.md`, and bounded GitHub issues. Define acceptance criteria, delegate work, and inspect results. **Automate tests where practical so the agent can run, inspect, revise, and retest.** Review the evidence, then commit and push. Link the README to specifications, issues, tests, and results. See [process and assessment](process-and-assessment.md).
+After the consult, have Claude help create `SPEC.md`, persistent guidance in `CLAUDE.md`, and bounded GitHub issues. **Give the agent a clear objective and ask it to loop toward it: plan, act, test, inspect, revise, and repeat until the agreed success criteria are met or it reaches an agreed limit or blocker.** Automate checks where practical and review the evidence. Review the evidence, then commit and push. Link the README to specifications, issues, tests, and results. See [process and assessment](process-and-assessment.md).
 
 ## Show your process and what you learned
 

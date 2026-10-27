@@ -34,10 +34,12 @@ unresolved work visible. Do not lower the ambition simply to get a green test re
 
 An instruction you can adapt in Claude Desktop:
 
-> Work on the agreed issue. Read CLAUDE.md and the relevant SPEC.md criteria. Build the
-> change, run the tests, inspect failures, and revise within the issue's boundaries and
-> our agreed iteration or usage limit. Preserve the criteria and observed results.
-> Report the evidence and anything unresolved so I can review it.
+> Your objective is to implement the capability in this issue and meet its SPEC.md
+> acceptance criteria. Read CLAUDE.md, make a plan, and work toward that objective in a
+> loop: act, run the tests, inspect the evidence, revise, and repeat. Continue until the
+> agreed criteria are met or you reach our iteration or usage limit or a blocker. Stay
+> within the issue's boundaries, preserve the criteria and observations, and report
+> evidence of what you achieved and anything unresolved so I can review it.
 
 ## Test the actual solution
 
@@ -46,8 +48,14 @@ starting inputs and state, expected behavior, and how you will judge it. Include
 cases and a situation that could expose a weakness. Use a comparison appropriate to your
 idea; this need not be a predictive-model benchmark.
 
-**Automating tests is encouraged.** Let the agent run, inspect, revise, and retest in a
-loop with a practical stopping limit. Direct skill tests, computer use of an interface,
+**Loop with an objective.** Give the agent a clear objective from the specification,
+observable success criteria, and a way to evaluate its progress. Ask it to plan, act,
+inspect the result, revise its approach, and keep working toward that objective. The
+loop ends when evidence supports meeting the agreed criteria or it reaches an agreed
+limit or blocker; running more steps alone is not progress.
+
+**Automating tests is encouraged.** Tests and feedback help the agent judge each attempt
+and decide what to do next in that loop. Direct skill tests, computer use of an interface,
 and documented manual trials can all be appropriate. Test the chosen environment rather
 than assume a successful build works everywhere. Let Claude handle code and commands
 while you inspect the choices and evidence in the desktop app.

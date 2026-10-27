@@ -41,7 +41,10 @@ an agent workflow, an interactive experience, or another agreed creation. No pre
 dataset or model training is required. Read the
 [final-project description](.claude/skills/project-proposal/references/ai1010-final-project.md).
 AI 1010 is **agent-forward**: agents can help draft, plan, build, test, and revise.
-You define the ambition, approve the decisions, and judge the evidence. Grading emphasizes
+You define the ambition, approve the decisions, and judge the evidence. Give the agent a
+clear objective and have it loop toward that objective: plan, act, test, inspect, revise,
+and repeat until the agreed criteria are met or it reaches an agreed limit or blocker.
+Grading emphasizes
 **process over the finished outcome**: problem definition, agent direction, source judgment,
 meaningful tests, diagnosis, and iteration. See the
 [process and assessment guide](.claude/skills/project-proposal/references/process-and-assessment.md).

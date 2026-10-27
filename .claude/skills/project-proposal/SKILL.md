@@ -201,8 +201,11 @@ The student completes the booking; do not invent availability or a confirmed app
 
 For AI 1010, prepare the student to direct agents after the consult through `SPEC.md`,
 persistent `CLAUDE.md` guidance, and bounded GitHub issues with goal, context, acceptance
-criteria, and boundary. Encourage repeatable tests and automated run/inspect/revise/retest
-loops with an agreed limit. Review observations rather than trusting the builder's claim;
+criteria, and boundary. Explicitly teach **looping with an objective**: give the agent
+an objective from the specification, observable success criteria, and a way to evaluate
+progress; ask it to plan, act, test, inspect evidence, revise, and repeat toward that
+objective until the criteria are met or an agreed limit or blocker is reached. Encourage
+repeatable and automated tests to guide the loop. Review observations rather than trusting the builder's claim;
 preserve failures and blockers, then commit and push meaningful reviewed work. The README
 begins as the proposal and grows into a concise guide linked to specifications and evidence.
 See [process and assessment](references/process-and-assessment.md) for the workflow.
