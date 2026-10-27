@@ -16,6 +16,10 @@ Build enough of your vision to put its central promise to a real test. Someone s
 
 ## Come to the meeting with an idea worth developing
 
+Use the [project-proposal skill](https://github.com/vanderbilt-ai-studies/project-proposal) to develop your idea. In the Claude Desktop app's Code tab, ask:
+
+> Use the project-proposal skill from https://github.com/vanderbilt-ai-studies/project-proposal to help me develop my AI 1010 final project.
+
 Before you begin building, complete these steps:
 
 1. **Create your project repository.** All projects begin as a **private repo in the `vanderbilt-ai-studies` GitHub organization**. Confirm that you can push to it and the course team can access it. Ask for help if organization access is missing.

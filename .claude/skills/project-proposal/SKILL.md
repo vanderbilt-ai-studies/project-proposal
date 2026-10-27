@@ -20,6 +20,12 @@ and MSDS share a board form, but their project goals are not interchangeable.
 Establish the course/program and whether this is graded work if the student has not said.
 Ask one or two questions at a time, and skip questions their materials already answer.
 
+AI 1010 students work exclusively in the **Claude Desktop app**, using its Code tab for
+project files and GitHub work. To get started, tell them to ask Claude to use this skill
+from https://github.com/vanderbilt-ai-studies/project-proposal. Let Claude handle setup in
+the desktop workflow; do not direct students to launch the Claude CLI, run installation
+commands themselves, or manually download and repackage a ZIP.
+
 **For AI 1010**, read [the final-project description](references/ai1010-final-project.md)
 before coaching, drafting, or judging an idea. This is the course's framing: **swing for
 the fences**. Start with what the student would attempt if technical implementation no

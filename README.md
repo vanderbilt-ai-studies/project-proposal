@@ -12,28 +12,17 @@ New to the board? Read the student guide first:
 [onboarding/student-guide.md](onboarding/student-guide.md)
 ([PDF](onboarding/student-guide.pdf)).
 
-## Use it with Claude Code
+## Use it in Claude Desktop
 
-```sh
-git clone https://github.com/vanderbilt-ai-studies/project-proposal.git
-cd project-proposal
-claude
-```
+Open the **Claude Desktop app**, select the **Code** tab, and ask:
 
-The skill is in `.claude/skills/`, so Claude Code loads it as soon as you start it in this
-folder. Then just talk to it:
+> Use the project-proposal skill from https://github.com/vanderbilt-ai-studies/project-proposal to help me develop my AI 1010 final project.
 
-- *"I like music and know a bit of Python. What could I propose?"*
-- *"Here's my idea. Is it good enough for my semester project?"*
-- *"Help me write my project proposal."*
+Claude can handle the skill setup and guide you through developing your idea, creating
+your private project repo, and writing its README. Tell it what you care about or bring
+an idea you already have.
 
-You can also start it directly by typing `/project-proposal`.
-
-## Use it on claude.ai instead
-
-Download this repo as a ZIP, then zip just the `.claude/skills/project-proposal` folder so
-that `SKILL.md` sits at the top of the zip. Upload that zip under **Settings → Capabilities
-→ Skills**. If your class Claude Team already has it installed, you don't need to do this.
+**Skill repository:** [vanderbilt-ai-studies/project-proposal](https://github.com/vanderbilt-ai-studies/project-proposal)
 
 ## What you get
 
