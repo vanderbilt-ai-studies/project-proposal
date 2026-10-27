@@ -4,7 +4,9 @@ description: >-
   Help Vanderbilt AI Studies students develop their own project proposals. For AI 1010,
   coach an ambitious final project and prepare a proposal for the instructor meeting
   before building. For AI minor, MSAI and MSDS students, develop a program-appropriate
-  proposal for the project board. Drafts board fields but never submits or browses projects.
+  proposal for the project board. Helps set up a private organization repo, makes the
+  proposal its README, and drafts board fields with the repo link in Full Details. Never
+  submits board entries or browses projects.
 ---
 
 # Project Proposal
@@ -40,8 +42,9 @@ do not impose these as universal AI 1010 requirements or lower graduate expectat
 ## Scope and board facts
 
 - Board link: **https://bit.ly/vanderbilt-ai-projects**.
-- Draft and critique; never sign in, submit, claim a project, or book a meeting. Do not
-  request credentials or imply you have read the live board.
+- Help develop the proposal, set up its private GitHub repository, and save the README.
+  Never sign in to the board, submit or claim a board project, or book a meeting. The student
+  completes necessary sign-ins; do not request credentials or imply you read the live board.
 - This skill develops the student's **own proposal**. For live project discovery, point
   to the board or its Project Assistant. If an AI 1010 student brings an existing project
   description, help prepare their own ambition, contribution, and questions for the
@@ -50,13 +53,18 @@ do not impose these as universal AI 1010 requirements or lower graduate expectat
   This is a board-path constraint, not evidence of a course-wide ban on teams. If a student
   wants team work, prepare individual contributions for instructor discussion; do not
   promise this form supports teammates or declare the arrangement approved.
-- A person reviews student proposals. The AI 1010 form asks whether this is the semester
-  final project; MSDS asks whether it is a capstone. Answer based on the student's actual
-  purpose, never to evade scrutiny.
+- A person reviews student proposals. Semester/capstone status is a submission setting,
+  not a proposal paragraph or a domain tag to invent. The current board uses a Yes/No
+  choice labeled "Is this your semester final project?" for AI 1010 and "Is this your
+  Capstone project?" for MSDS, stores it separately from domain tags, and displays a
+  semester-project badge. Have the student select the truthful setting when submitting;
+  do not add a separate written answer to the proposal or use a tag to bypass the setting.
 - AI 1010 students complete a **15-minute instructor/team meeting before building**.
-  Share the proposal beforehand. Board acceptance is distinct from agreement on course
-  scope. If the board requires approval before its booking control appears, explain that
-  administrative order while preserving the meeting-before-building requirement.
+  Share the proposal beforehand by adding the project to the board, with its repository
+  link in **Full Details**. Board acceptance is distinct from agreement on course
+  scope. Once the private repo, README proposal, and board entry are ready, have the student
+  [book an AI 1010 project consult](https://calendly.com/d/d3nk-8tg-2kt/ai-1010-project-consults).
+  Give this direct signup link rather than making booking depend on finding a board control.
 - Use the course's currently posted proposal and meeting dates. Do not repeat the old
   hardcoded November 20 booking deadline or invent a date. The course description lists
   December 11, 11:59 p.m. and a 25% final-project weight; follow newer explicit instructor
@@ -106,10 +114,33 @@ Keep the vision visible while developing:
   understand and explain the proposal, direct important choices, and judge evidence.
   Do not invent a personal motivation or complete their decisions without their participation.
 
-## Draft for the meeting and the board
+## Create the project repository
+
+Every project starts as a **private repository in `vanderbilt-ai-studies`**. Make creating
+it an explicit step after the student chooses the project and its name, before implementation.
+Use an existing repo for that project if one already exists; do not create duplicates.
+
+Help the student create and clone the repository with their signed-in GitHub account, using
+the available tool or interface. Work in the new project's folder, not in this helper's
+checkout. Verify the owner is `vanderbilt-ai-studies`, visibility is **Private**, and the
+student can push. If org access or creation fails, save the error and direct them to the
+course team; do not substitute a personal-account or public repo. The student handles
+sign-in or invitations; never ask for a password or token.
+
+Save the proposal below as **`README.md` at the project repository root**, commit it, push,
+and verify the README appears on GitHub. Save the actual repository URL for the board entry.
+Creating the repo and writing the proposal are preparation; implementation follows the
+instructor meeting. A private repo link does not grant access: check that the course team
+can read it through the organization's permissions while keeping it private. Do not change
+organization-wide permissions or make a repo public to resolve access trouble.
+
+## Write the proposal as the project's README
 
 Read [proposal guidance](references/proposal-bar.md) before drafting or reviewing.
-For AI 1010, first prepare **about one page in the student's own words**, covering:
+For AI 1010, prepare **about one page in the student's own words** as the initial README.
+The proposal guides the student's work throughout the project; update it as plans develop
+and decisions are made. It also gives the instructor meeting a concrete starting point.
+It is not a separate one-page document to send privately. Cover:
 
 1. **The ambition:** what becomes possible, for whom, why it matters, and the stretch.
 2. **The opportunity:** what AI enables and what the student's expertise contributes.
@@ -118,16 +149,22 @@ For AI 1010, first prepare **about one page in the student's own words**, coveri
 4. **The evidence:** concrete success criteria, a comparison, and a revealing difficult case.
 5. **The questions:** uncertainties and what they need the meeting to help resolve.
 
-Reuse this substance for the board rather than requiring a second essay. For other programs,
-draft the program-appropriate proposal directly. Board fields are:
+For other programs, use their program-appropriate proposal as the README as well.
+
+## Add the project to the board
+
+**Sharing the proposal means adding the project to the project board before the meeting.**
+Reuse the README's substance rather than requiring a second essay. Draft these board fields:
 
 | Field | Draft content |
 |---|---|
 | Title | A specific creation or investigation, not merely a topic. |
 | Short description | One or two sentences explaining the ambition and why it matters. |
-| Full details | Plain first-person prose, usually 250–500 words. For AI 1010, reuse the meeting proposal: vision, AI's role, approach/materials, central demonstration, evidence, realistic time and open questions. For other programs, include the methods, evaluation, deliverable, checkpoint and time appropriate to the project. |
+| Full details | Reuse the README proposal in plain first-person prose, usually 250–500 words: vision, AI's role, approach/materials, demonstration, evidence, realistic time and open questions. Adapt methods and depth for other programs. **Include the actual private organization repository URL here**, on its own line as `Project repository: <confirmed URL>`. A link in tags, a separate chat message, or the short description alone does not satisfy this step. |
 | Tags | Three to six relevant, lowercase, hyphenated tags; use skill/workflow/creative tags when appropriate. |
-| Semester final project / Capstone | The truthful answer and a brief explanation. |
+
+After the paste-ready fields, remind the student to select the applicable semester/capstone
+setting in the board form. It is not another written proposal field.
 
 Label paste-ready sections by their visible form labels. Leave out personal contact details.
 Separate unresolved factual gaps from finished paste-ready text. Do not fabricate specifics
@@ -140,11 +177,16 @@ would most improve it. Preserve the student's idea and voice. Use the applicable
 `proposal-bar.md`; distinguish **ready for a productive meeting**, **factual gaps**, and
 **course decisions to discuss**. Neither a helper nor a board pre-review guarantees a grade.
 
-For AI 1010, end with a clear next action: share the proposal before the instructor/team
-meeting, use the board's submission and booking steps as required, then complete the meeting
-and agree the plan before building. If submission is needed, direct the student to sign in
-at the board, choose **Submit a Project → A student, for myself**, and paste their fields.
-They monitor **My Submissions** for human feedback and edit/resubmit if asked.
+End with the concrete sequence: **private organization repo → proposal in README → board
+entry with the repo URL in Full Details → instructor meeting → implementation**. Reuse work
+already completed instead of asking the student to do it again. Direct the student to sign
+in at the board, choose **Submit a Project → A student, for myself**, paste the fields,
+and select the applicable semester/capstone setting. They monitor **My Submissions** for
+human feedback and edit/resubmit if asked. AI 1010 students book and complete the meeting
+and agree the plan before building; a chat draft or repo alone has not shared the proposal.
+When their README and board entry are ready, include this next action explicitly:
+[Sign up for your AI 1010 project consult](https://calendly.com/d/d3nk-8tg-2kt/ai-1010-project-consults).
+The student completes the booking; do not invent availability or a confirmed appointment.
 
 The later submission includes the creation, instructions for trying it, a short demonstration,
 and a concise account of development, testing, revisions, limits, sources, and AI use.

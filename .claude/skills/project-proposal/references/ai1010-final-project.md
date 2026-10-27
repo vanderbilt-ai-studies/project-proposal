@@ -1,6 +1,6 @@
 # Swing for the fences
 
-AI 1010 final project  |  Due December 11 at 11:59 p.m.  |  25% of your course grade
+*AI 1010 final project  |  Due December 11 at 11:59 p.m.  |  25% of your course grade*
 
 What would you attempt if the technical work were no longer the thing stopping you?
 
@@ -16,19 +16,26 @@ Build enough of your vision to put its central promise to a real test. Someone s
 
 ## Come to the meeting with an idea worth developing
 
-Before you begin building, prepare and share a proposal of about one page. Use AI to explore possibilities and challenge your assumptions. Come ready to explain your idea in your own words:
+Before you begin building, complete these steps:
 
-The ambition. What do you want to make possible, for whom, and why would it matter? What makes this a stretch for you?
+1. **Create your project repository.** All projects begin as a **private repo in the `vanderbilt-ai-studies` GitHub organization**. Confirm that you can push to it and the course team can access it. Ask for help if organization access is missing.
+2. **Write the proposal as your README.** Prepare about one page in your own words and save it as **`README.md`** at the repository root. Commit and push it. This proposal will guide your work; revise it as the project develops.
+3. **Add your project to the project board.** This is how you share your proposal. Reuse your README's substance for the entry and **include the repository link in Full Details** before the instructor meeting.
+4. **Book your project consult when ready.** Once your README and board entry are ready, [sign up for an AI 1010 project consult](https://calendly.com/d/d3nk-8tg-2kt/ai-1010-project-consults). Come prepared to discuss your proposal before implementation begins.
 
-The opportunity. What does AI enable here? What knowledge or perspective will you bring that a generic request to an AI would miss?
+Use AI to explore possibilities and challenge your assumptions. Your proposal should explain:
 
-The approach. What might you build, what materials and tools can you access, and what would an early demonstration let you learn?
+- **The ambition.** What do you want to make possible, for whom, and why would it matter? What makes this a stretch for you?
 
-The evidence. How will you test the central promise? Describe concrete signs of success, a comparison, and a situation that could expose a weakness.
+- **The opportunity.** What does AI enable here? What knowledge or perspective will you bring that a generic request to an AI would miss?
 
-The questions. Where are you uncertain? What do you most need our help thinking through?
+- **The approach.** What might you build, what materials and tools can you access, and what would an early demonstration let you learn?
 
-We’ll use the meeting to strengthen the idea and agree on an ambitious, credible plan for the time available. Bring the vision you want to pursue. Proposal and meeting dates will be posted in Brightspace.
+- **The evidence.** How will you test the central promise? Describe concrete signs of success, a comparison, and a situation that could expose a weakness.
+
+- **The questions.** Where are you uncertain? What do you most need our help thinking through?
+
+Creating the repository and writing its README are preparation for the meeting. We’ll use the meeting to strengthen the idea and agree on an ambitious, credible plan before implementation begins. Bring the vision you want to pursue. Proposal and meeting dates will be posted in Brightspace.
 
 ## Show what you made possible
 

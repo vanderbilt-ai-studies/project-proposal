@@ -16,7 +16,10 @@ experience, model training, a dataset, a live model in the product, or worldwide
 are not required. Software built with AI can qualify through the student's specification,
 context, direction, decisions, testing, and judgment.
 
-The proposal prepares a **meeting before building**. It is ready for that conversation when
+The proposal becomes the project's **README.md**, guiding the student's work as it develops.
+Every project begins as a **private repo in `vanderbilt-ai-studies`**. Sharing the proposal
+means adding the project to the board, with its **repository URL in Full Details**, before
+the **instructor scoping meeting**. It is ready for that conversation when
 it explains the vision, why AI changes the opportunity, a possible approach, meaningful
 evidence, and the questions needing instructor help. Open design questions are legitimate;
 fabricated access, materials, time, or results are not. The meeting agrees the execution
@@ -74,7 +77,9 @@ every uncertainty as a rejection.
 | Evidence | Concrete success criteria, a comparison, and a difficult case |
 | Questions | The actual uncertainties the instructor can help resolve |
 | Practical preparation | A realistic time estimate or an explicit question, relevant permissions, and student ownership |
-| Next step | Proposal shared before the meeting; scope agreed before building |
+| Repository and README | Private repo in `vanderbilt-ai-studies`; proposal committed and pushed as root README.md |
+| Board sharing | Project added to the board; repository URL included in Full Details |
+| Next step | Once the README and board entry are ready, [book the project consult](https://calendly.com/d/d3nk-8tg-2kt/ai-1010-project-consults); agree the plan before implementation and keep the README current |
 
 For other programs, check the applicable shared criteria and program-specific methods,
 evaluation, output, and time. A model verdict is not human project approval.
@@ -83,7 +88,9 @@ evaluation, output, and time. A model verdict is not human project approval.
 
 This is an illustrative proposal, not facts to copy into a student's submission. In this
 example the student has said they have their own application notes, public career guidance,
-and four weeks at five hours per week. Use a real student's actual materials and calendar.
+and four weeks at five hours per week. They have created a private organization repo named
+`career-counselor`. That example URL below is illustrative, not a verified existing project.
+Use a real student's actual repository, materials, and calendar.
 
 **Title**
 
@@ -121,16 +128,20 @@ and four weeks at five hours per week. Use a real student's actual materials and
 > my first checkpoint will test whether retained information actually improves a later
 > conversation. My final creation will include the workflow, instructions, a demonstration,
 > and evidence of revisions and limits. I need help deciding what information should be
-> saved and what would make the advice trustworthy enough to act on. I will share this
-> proposal before the meeting and agree the plan with the instructor before building.
+> saved and what would make the advice trustworthy enough to act on. This proposal is my
+> project's README, which I will update as the work develops. I will add the project to the
+> board before the meeting and agree the plan with the instructor before implementation.
+>
+> Project repository: https://github.com/vanderbilt-ai-studies/career-counselor
 
 **Tags**
 
 > career-guidance, agent-skills, workflows, memory, evaluation
 
-**Is this your semester final project?**
+**Submission setting**
 
-> Yes. I am proposing this for AI 1010 and will meet with the instructor before building.
+Select Yes for the AI 1010 semester-final-project question when submitting this example.
+This setting is separate from domain tags and is not a paragraph to paste into the proposal.
 
 Why it prepares a useful meeting: the vision is meaningful, the student contributes
 experience and judgment, and the demonstration tests the central promise. The sources,

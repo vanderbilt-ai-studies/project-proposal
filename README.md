@@ -42,8 +42,10 @@ A conversation that helps you:
 1. explore what you would attempt if technical implementation no longer stopped you
 2. connect the ambition to your expertise and what AI makes possible
 3. plan a demonstration of the central promise, with materials, evidence, and realistic time
-4. prepare your proposal and questions for the instructor meeting
-5. reuse that work to draft the **Submit a Project** fields and check for missing facts
+4. create a **private project repository in `vanderbilt-ai-studies`** and save your proposal
+   as its **`README.md`**, which will guide your work as the project develops
+5. reuse that proposal for the **Submit a Project** entry, including the repository URL
+   in **Full Details**, and prepare questions for the instructor meeting
 
 **AI 1010: swing for the fences.** Your project can be software built with AI, skills,
 an agent workflow, an interactive experience, or another agreed creation. No predictive
@@ -55,8 +57,15 @@ It never submits anything for you. You sign in at the board, choose **Submit a P
 "A student, for myself"**, and paste each section in. A person reviews every student
 proposal.
 
-AI 1010 students: share your proposal before your **15-minute instructor/team meeting**.
-Complete the meeting and agree the project plan **before you begin building**. Follow the
+**Sharing your proposal means adding your project to the project board.** Put the private
+organization repository link in the board entry's **Full Details**. The one-page proposal
+lives in your project's README and guides your work; you do not need a separate document.
+
+AI 1010 students: add the board entry before your **15-minute instructor/team meeting**.
+When your README and board entry are ready,
+[sign up for your AI 1010 project consult](https://calendly.com/d/d3nk-8tg-2kt/ai-1010-project-consults).
+Complete the meeting and agree the project plan **before implementation begins**. Creating
+the private repo and writing its README are preparation for that meeting. Follow the
 board's submission/booking order and the currently posted course dates; board acceptance
 alone does not replace this conversation.
 
