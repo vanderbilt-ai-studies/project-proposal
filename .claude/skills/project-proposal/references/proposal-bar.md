@@ -34,7 +34,8 @@ needs thought. For other programs, add the methods and depth their requirements 
   and what someone could try or assess at the end. For AI 1010 this is a creation and a
   demonstration of its central promise; a generic topic or an essay about AI is insufficient.
 - **Substantive work.** For AI 1010, make the student's application of course concepts,
-  domain expertise, important decisions, and judgment visible. For data-science work, make
+  domain expertise, important decisions, and judgment visible. Agents can help write and
+  build throughout; do not require unaided prose or hand-coded implementation. For data-science work, make
   the methods and evaluation substantive. Do not dismiss a web application merely because
   its final output is software rather than a predictive model.
 - **Credible execution.** Identify available sources/tools, uncertain access, actual remaining
@@ -52,6 +53,11 @@ needs thought. For other programs, add the methods and depth their requirements 
   Avoid dependencies on an uncertain approval. A board data flag calls for human review;
   it is not itself proof the student has done something wrong.
 - **Ownership and assessment.** The student can explain their own contribution and choices.
+  For AI 1010, grade the quality of problem definition, agent direction, source judgment,
+  tests, diagnosis, iteration, and repository evidence before the finished outcome. A
+  blocked run or unresolved feature can still show strong process when evidenced honestly.
+  A polished product or a count of issues/commits does not by itself show that learning.
+  See [process and assessment](process-and-assessment.md); do not invent numeric weights.
   The board's own-proposal path is solo. Team arrangements, reuse of another assignment,
   and credit for an extension are course decisions, not claims the helper can approve.
 - **Honesty and contact.** Keep personal contact details and off-platform recruitment out
@@ -73,8 +79,8 @@ every uncertainty as a rejection.
 |---|---|
 | Ambition | A meaningful new capability and a stretch the student can explain |
 | Opportunity | What AI enables and what the student's knowledge contributes |
-| Approach | A plausible creation, available materials/tools, and an early demonstration |
-| Evidence | Concrete success criteria, a comparison, and a difficult case |
+| Approach | A plausible creation and early demonstration; a plan to direct agents through a specification, persistent guidance, and bounded issues after the consult |
+| Evidence | Concrete criteria, a comparison and difficult case; actual tests, preserved observations, and a plan to diagnose, revise, and retest |
 | Questions | The actual uncertainties the instructor can help resolve |
 | Practical preparation | A realistic time estimate or an explicit question, relevant permissions, and student ownership |
 | Repository and README | Private repo in `vanderbilt-ai-studies`; proposal committed and pushed as root README.md |
@@ -126,7 +132,10 @@ Use a real student's actual repository, materials, and calendar.
 >
 > I have four weeks available and can spend about five hours per week. After the meeting,
 > my first checkpoint will test whether retained information actually improves a later
-> conversation. My final creation will include the workflow, instructions, a demonstration,
+> conversation. I will have Claude help draft SPEC.md and CLAUDE.md, turn the criteria into
+> bounded issues, and build and test the workflow. I will review its plan and test evidence,
+> save observed failures, and direct revisions and fresh retests. My final creation will
+> include the workflow in its actual state, instructions, a demonstration or attempted run,
 > and evidence of revisions and limits. I need help deciding what information should be
 > saved and what would make the advice trustworthy enough to act on. This proposal is my
 > project's README, which I will update as the work develops. I will add the project to the

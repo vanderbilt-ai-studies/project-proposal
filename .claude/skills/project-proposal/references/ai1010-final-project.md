@@ -10,39 +10,41 @@ Choose an idea whose success would matter. You might give a small organization a
 
 ## Make the vision real
 
-Your project can take the form the idea deserves: software, a skill or collection of skills, an agent workflow, an interactive experience, or another creation we agree on. Use AI throughout the work. Your contribution is the vision, the expertise you bring, the decisions you make, and your judgment about the result.
-
-Build enough of your vision to put its central promise to a real test. Someone should be able to try it and see what becomes possible. Use what we’ve learned about context, models, tools, and agents to make deliberate choices, investigate failures, and improve the work.
+Your project can be software, skills, an agent workflow, an interactive experience, or another agreed creation. **Direct agents to help at every stage**, including specifications, issues, implementation, tests, and revisions. Your contribution is the vision, expertise, decisions, and judgment. Use what we’ve learned about context, models, tools, and agents to put your idea’s central promise to a real test. Preserve the evidence, including unresolved failures.
 
 ## Come to the meeting with an idea worth developing
 
-Use the [project-proposal skill](https://github.com/vanderbilt-ai-studies/project-proposal) to develop your idea. In the Claude Desktop app's Code tab, ask:
+In **Claude Desktop’s Code tab**, ask:
 
 > Use the project-proposal skill from https://github.com/vanderbilt-ai-studies/project-proposal to help me develop my AI 1010 final project.
 
 Before you begin building, complete these steps:
 
-1. **Create your project repository.** All projects begin as a **private repo in the `vanderbilt-ai-studies` GitHub organization**. Confirm that you can push to it and the course team can access it. Ask for help if organization access is missing.
-2. **Write the proposal as your README.** Prepare about one page in your own words and save it as **`README.md`** at the repository root. Commit and push it. This proposal will guide your work; revise it as the project develops.
-3. **Add your project to the project board.** This is how you share your proposal. Reuse your README's substance for the entry and **include the repository link in Full Details** before the instructor meeting.
-4. **Book your project consult when ready.** Once your README and board entry are ready, [sign up for an AI 1010 project consult](https://calendly.com/d/d3nk-8tg-2kt/ai-1010-project-consults). Come prepared to discuss your proposal before implementation begins.
+1. **Create a private repo in `vanderbilt-ai-studies`.** Have Claude help create it and verify that you can push and the course team can read it.
+2. **Make your proposal the root `README.md`.** With Claude’s help, develop about one page in your voice. Understand and own its choices; commit and push it. Keep it current as your guide to the work.
+3. **Share through the project board.** Add the project using your proposal’s substance, with the **repository link in Full Details**.
+4. **Book your consult when ready.** Once the README and board entry are ready, [sign up for a project consult](https://calendly.com/d/d3nk-8tg-2kt/ai-1010-project-consults).
 
-Use AI to explore possibilities and challenge your assumptions. Your proposal should explain:
+Your proposal should explain:
 
-- **The ambition.** What do you want to make possible, for whom, and why would it matter? What makes this a stretch for you?
+- **The ambition.** What will you make possible, for whom, and why does it matter? What makes it a stretch?
 
-- **The opportunity.** What does AI enable here? What knowledge or perspective will you bring that a generic request to an AI would miss?
+- **The opportunity.** What does AI enable? What expertise or perspective will you contribute?
 
-- **The approach.** What might you build, what materials and tools can you access, and what would an early demonstration let you learn?
+- **The approach.** What might you build, with which materials and tools? What would an early test reveal?
 
-- **The evidence.** How will you test the central promise? Describe concrete signs of success, a comparison, and a situation that could expose a weakness.
+- **The evidence.** Define observable success, an appropriate comparison, and a case that could expose a weakness.
 
-- **The questions.** Where are you uncertain? What do you most need our help thinking through?
+- **The questions.** What uncertainties do you need our help thinking through?
 
-Creating the repository and writing its README are preparation for the meeting. We’ll use the meeting to strengthen the idea and agree on an ambitious, credible plan before implementation begins. Bring the vision you want to pursue. Proposal and meeting dates will be posted in Brightspace.
+Create the repo and proposal before the consult; begin implementation afterward. We’ll strengthen the vision and agree on an ambitious, credible plan. Check Brightspace for dates.
 
-## Show what you made possible
+## Direct the work through your repository
 
-Submit your creation with instructions for trying it, a short demonstration, and a concise account of how you developed and tested it. Show the important decisions, what changed through iteration, what works, and where the limits remain. Credit your sources, disclose your use of AI, and handle people’s information responsibly.
+After the consult, have Claude help create `SPEC.md`, persistent guidance in `CLAUDE.md`, and bounded GitHub issues. Define acceptance criteria, delegate work, and inspect results. **Automate tests where practical so the agent can run, inspect, revise, and retest.** Review the evidence, then commit and push. Link the README to specifications, issues, tests, and results. See [process and assessment](process-and-assessment.md).
 
-We’ll look for ambition and imagination, thoughtful application of the course, quality of execution, and convincing evidence about what you achieved. An ambitious attempt can teach us something even when part of it fails. Make an honest case for what your work accomplished and what you learned.
+## Show your process and what you learned
+
+Submit your creation in its actual state, instructions or a demonstration, and a concise account linked to repository evidence. Explain your decisions, agent direction, tests, revisions, and unresolved results. Credit sources, disclose AI use, and handle people’s information responsibly.
+
+**Grading emphasizes process over the finished outcome:** problem definition, agent direction, source judgment, meaningful tests, and evidence-based iteration. Every ambitious feature need not succeed to demonstrate strong learning. Show what you tried, what happened, how you responded, and what you learned. Functionality matters as evidence; polished output alone cannot show your process. We assess decisions and evidence, rather than counts of issues, commits, or lines of code.

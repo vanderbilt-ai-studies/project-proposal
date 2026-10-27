@@ -9,3 +9,7 @@ project repo in `vanderbilt-ai-studies`, save the proposal as that project's `RE
 and prepare the board entry with its repo URL in Full Details. Keep student project files
 out of this helper checkout. Do not change the helper itself unless explicitly asked.
 The student submits to the board. For AI 1010, the instructor meeting precedes implementation.
+Agents may help with every stage. Guide the student toward specifications, persistent agent
+guidance, bounded issues, meaningful tests, and evidence-based revision. AI 1010 assessment
+emphasizes the student's decisions and process over the finished outcome; follow the skill's
+process-and-assessment reference rather than inventing a success-only grading rule.

@@ -27,7 +27,8 @@ the desktop workflow; do not direct students to launch the Claude CLI, run insta
 commands themselves, or manually download and repackage a ZIP.
 
 **For AI 1010**, read [the final-project description](references/ai1010-final-project.md)
-before coaching, drafting, or judging an idea. This is the course's framing: **swing for
+and [process and assessment guidance](references/process-and-assessment.md) before coaching,
+drafting, or judging an idea. This is the course's framing: **swing for
 the fences**. Start with what the student would attempt if technical implementation no
 longer stopped them. Look for ambition, imagination, and a consequential opportunity in
 something they know or care about. Help strengthen that vision before planning its execution.
@@ -119,6 +120,9 @@ Keep the vision visible while developing:
 - **Learning and ownership.** AI can explore, critique, draft, and build. The student must
   understand and explain the proposal, direct important choices, and judge evidence.
   Do not invent a personal motivation or complete their decisions without their participation.
+  Agents may draft the proposal, specification, guidance, issues, code, tests, and reports;
+  do not impose unaided writing or hand-coding requirements. The student approves choices,
+  inspects evidence, and can explain their judgment in their own words.
 
 ## Create the project repository
 
@@ -143,7 +147,8 @@ organization-wide permissions or make a repo public to resolve access trouble.
 ## Write the proposal as the project's README
 
 Read [proposal guidance](references/proposal-bar.md) before drafting or reviewing.
-For AI 1010, prepare **about one page in the student's own words** as the initial README.
+For AI 1010, help develop **about one page in the student's voice** as the initial README.
+AI assistance is encouraged; the student must understand and own the decisions it records.
 The proposal guides the student's work throughout the project; update it as plans develop
 and decisions are made. It also gives the instructor meeting a concrete starting point.
 It is not a separate one-page document to send privately. Cover:
@@ -194,11 +199,30 @@ When their README and board entry are ready, include this next action explicitly
 [Sign up for your AI 1010 project consult](https://calendly.com/d/d3nk-8tg-2kt/ai-1010-project-consults).
 The student completes the booking; do not invent availability or a confirmed appointment.
 
-The later submission includes the creation, instructions for trying it, a short demonstration,
-and a concise account of development, testing, revisions, limits, sources, and AI use.
-Explain that AI 1010 values ambition and imagination, thoughtful application of the course,
-execution, and convincing evidence. An ambitious failure can yield learning; do not promise
-that an untested idea, a report alone, or any failed artifact automatically earns full credit.
+For AI 1010, prepare the student to direct agents after the consult through `SPEC.md`,
+persistent `CLAUDE.md` guidance, and bounded GitHub issues with goal, context, acceptance
+criteria, and boundary. Encourage repeatable tests and automated run/inspect/revise/retest
+loops with an agreed limit. Review observations rather than trusting the builder's claim;
+preserve failures and blockers, then commit and push meaningful reviewed work. The README
+begins as the proposal and grows into a concise guide linked to specifications and evidence.
+See [process and assessment](references/process-and-assessment.md) for the workflow.
+
+**AI 1010 grading emphasizes process over the finished outcome**: problem definition,
+agent direction, source judgment, meaningful testing, diagnosis, iteration, and clear
+repository evidence. Ambition remains the invitation; do not shrink an idea merely to
+protect a success rate. An unresolved feature or documented blocker is not an automatic
+failure of the student's process. Assess actual functionality honestly without making
+complete success a prerequisite for strong learning. Do not guarantee grades or award
+credit merely for a polished product, claimed effort, long chat, or counts of commits/issues.
+Do not promise failed work automatically earns full credit, invent numeric rubric weights,
+or import Career Services' separate Part 2 peer-trial requirement. Preserve other programs'
+assessment requirements.
+
+The later submission includes the creation in its actual state, instructions or a
+demonstration, and a concise account linked to real tests, revisions, limits, sources,
+and AI use. The student should explain the requirements they approved, how they directed
+agents, what changed after testing, and which results they accepted, rejected, or could
+not resolve. An untested idea or unsupported narrative alone is insufficient evidence.
 
 ## Style
 

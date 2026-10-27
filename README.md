@@ -40,7 +40,13 @@ A conversation that helps you:
 an agent workflow, an interactive experience, or another agreed creation. No predictive
 dataset or model training is required. Read the
 [final-project description](.claude/skills/project-proposal/references/ai1010-final-project.md).
-Other programs retain their own requirements for methods, depth, and evaluation.
+AI 1010 is **agent-forward**: agents can help draft, plan, build, test, and revise.
+You define the ambition, approve the decisions, and judge the evidence. Grading emphasizes
+**process over the finished outcome**: problem definition, agent direction, source judgment,
+meaningful tests, diagnosis, and iteration. See the
+[process and assessment guide](.claude/skills/project-proposal/references/process-and-assessment.md).
+Every ambitious feature need not work to demonstrate strong learning; polished output alone
+is not enough. Other programs retain their own requirements for methods, depth, and evaluation.
 
 It never submits anything for you. You sign in at the board, choose **Submit a Project →
 "A student, for myself"**, and paste each section in. A person reviews every student
