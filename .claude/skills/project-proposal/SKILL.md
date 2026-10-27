@@ -124,16 +124,25 @@ Keep the vision visible while developing:
   do not impose unaided writing or hand-coding requirements. The student approves choices,
   inspects evidence, and can explain their judgment in their own words.
 
-## Create the project repository
+## Generate the initial repository once the basics are established
 
-Every project starts as a **private repository in `vanderbilt-ai-studies`**. Make creating
-it an explicit step after the student chooses the project and its name, before implementation.
-Use an existing repo for that project if one already exists; do not create duplicates.
+Make this a concrete step the skill carries out. The basics are the project's purpose,
+intended user, initial approach, and a project name the student has chosen. As soon as
+those are established, **create the initial private repository in `vanderbilt-ai-studies`**
+using the available tools. Do not wait for a finished proposal, specification, implementation
+plan, or instructor consult. Open design questions belong in the initial README.
+Do not stop at recommending a repo, offering to create one later, or leaving the student
+with a chat-only proposal. Reuse the project's existing repo if there is one.
 
-Help the student create and clone the repository with their signed-in GitHub account, using
-the available tool or interface. Work in the new project's folder, not in this helper's
-checkout. Verify the owner is `vanderbilt-ai-studies`, visibility is **Private**, and the
-student can push. If org access or creation fails, save the error and direct them to the
+1. Use the student's signed-in GitHub account to create the **private organization repo**
+   and connect a local project folder. Work there, not in this helper's checkout.
+2. Generate an initial root **`README.md`** from the agreed basics, with the remaining
+   questions explicit. Let it develop into the full proposal in the next step.
+3. Commit and push the initial README. Verify on GitHub that the owner is
+   `vanderbilt-ai-studies`, visibility is **Private**, and the README is present.
+4. Return the repository link to the student and keep it for the board's **Full Details**.
+
+Verify the student can push. If org access or creation fails, save the error and direct them to the
 course team; do not substitute a personal-account or public repo. The student handles
 sign-in or invitations; never ask for a password or token.
 

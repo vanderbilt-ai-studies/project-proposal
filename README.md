@@ -31,8 +31,9 @@ A conversation that helps you:
 1. explore what you would attempt if technical implementation no longer stopped you
 2. connect the ambition to your expertise and what AI makes possible
 3. plan a demonstration of the central promise, with materials, evidence, and realistic time
-4. create a **private project repository in `vanderbilt-ai-studies`** and save your proposal
-   as its **`README.md`**, which will guide your work as the project develops
+4. once the purpose, intended user, initial approach, and name are established, have Claude
+   **create the private project repository in `vanderbilt-ai-studies`**, generate and push
+   its initial **`README.md`**, and develop that README into the proposal guiding your work
 5. reuse that proposal for the **Submit a Project** entry, including the repository URL
    in **Full Details**, and prepare questions for the instructor meeting
 

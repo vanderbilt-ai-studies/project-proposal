@@ -20,7 +20,7 @@ In **Claude Desktop’s Code tab**, ask:
 
 Before you begin building, complete these steps:
 
-1. **Create a private repo in `vanderbilt-ai-studies`.** Have Claude help create it and verify that you can push and the course team can read it.
+1. **Have Claude generate the initial private repo in `vanderbilt-ai-studies`.** Once the purpose, intended user, basic approach, and name are established, Claude should create the repo and push an initial `README.md`. Verify that you can push and the course team can read it.
 2. **Make your proposal the root `README.md`.** With Claude’s help, develop about one page in your voice. Understand and own its choices; commit and push it. Keep it current as your guide to the work.
 3. **Share through the project board.** Add the project using your proposal’s substance, with the **repository link in Full Details**.
 4. **Book your consult when ready.** Once the README and board entry are ready, [sign up for a project consult](https://calendly.com/d/d3nk-8tg-2kt/ai-1010-project-consults).
