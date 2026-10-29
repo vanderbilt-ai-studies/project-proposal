@@ -39,9 +39,21 @@ Your proposal should explain:
 
 Create the repo and proposal before the consult; begin implementation afterward. We’ll strengthen the vision and agree on an ambitious, credible plan. Check Brightspace for dates.
 
-## Direct the work through your repository
+## Three phases, three steps each
 
-After the consult, have Claude help create `SPEC.md`, persistent guidance in `CLAUDE.md`, and bounded GitHub issues. **Give the agent a clear objective and ask it to loop toward it: plan, act, test, inspect, revise, and repeat until the agreed success criteria are met or it reaches an agreed limit or blocker.** Automate checks where practical and review the evidence. Review the evidence, then commit and push. Link the README to specifications, issues, tests, and results. See [process and assessment](process-and-assessment.md).
+| Set up | Build | Test and improve |
+| --- | --- | --- |
+| 1. Define the problem | 1. Plan the work | 1. Test the actual solution |
+| 2. Define success | 2. Build a working piece | 2. Diagnose and revise |
+| 3. Prepare the project | 3. Inspect and steer | 3. Try it with someone and share |
+
+Your proposal and consult belong to Set up. After the consult, have Claude help develop
+`SPEC.md`, concise persistent guidance in `CLAUDE.md`, and bounded GitHub issues.
+Give the agent an objective, observable criteria, and a way to test its progress.
+Have it build, inspect, revise, and retest until the criteria are met or it reaches an
+agreed limit or blocker. Review the evidence, then commit and push. Testing can return
+you to building or setup. Permissions, privacy, and source judgment apply throughout.
+See [process and assessment](process-and-assessment.md) for the steps and evidence.
 
 ## Show your process and what you learned
 

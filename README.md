@@ -24,6 +24,22 @@ an idea you already have.
 
 **Skill repository:** [vanderbilt-ai-studies/project-proposal](https://github.com/vanderbilt-ai-studies/project-proposal)
 
+## AI 1010: three phases, three steps each
+
+| Set up | Build | Test and improve |
+| --- | --- | --- |
+| 1. Define the problem | 1. Plan the work | 1. Test the actual solution |
+| 2. Define success | 2. Build a working piece | 2. Diagnose and revise |
+| 3. Prepare the project | 3. Inspect and steer | 3. Try it with someone and share |
+
+Testing can send you back to building or setup. Permissions, privacy, and source judgment
+apply throughout. Claude helps you focus on your current phase and next step.
+
+Set up includes your private repo, proposal README, board entry, and project consult.
+Begin implementation after the consult and agreement on the plan. See the
+[phase guide](.claude/skills/project-proposal/references/process-and-assessment.md)
+for the details. Other programs retain their own project requirements.
+
 ## What you get
 
 A conversation that helps you:

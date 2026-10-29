@@ -12,7 +12,10 @@ this later. Follow the skill's access-blocker handling. Prepare the board entry 
 repo URL in Full Details. Keep student project files
 out of this helper checkout. Do not change the helper itself unless explicitly asked.
 The student submits to the board. For AI 1010, the instructor meeting precedes implementation.
-Agents may help with every stage. Guide the student toward specifications, persistent agent
-guidance, bounded issues, meaningful tests, and evidence-based revision. AI 1010 assessment
+Agents may help with every stage. For AI 1010, organize the work into **Set up**, **Build**,
+and **Test and improve**, with three steps per phase as defined in the skill. Focus on
+the current phase and next useful action. Testing can return the work to building or setup.
+Guide the student toward specifications, concise persistent guidance, bounded issues,
+meaningful tests, and evidence-based revision. AI 1010 assessment
 emphasizes the student's decisions and process over the finished outcome; follow the skill's
 process-and-assessment reference rather than inventing a success-only grading rule.

@@ -2,9 +2,10 @@
 name: project-proposal
 description: >-
   Help Vanderbilt AI Studies students develop their own project proposals. For AI 1010,
-  coach an ambitious final project and prepare a proposal for the instructor meeting
-  before building. For AI minor, MSAI and MSDS students, develop a program-appropriate
-  proposal for the project board. Helps set up a private organization repo, makes the
+  plan an ambitious final project through Set up, Build, and Test and improve, starting
+  with a proposal for the instructor meeting before building. For AI minor, MSAI and
+  MSDS students, develop a program-appropriate proposal for the project board.
+  Helps set up a private organization repo, makes the
   proposal its README, and drafts board fields with the repo link in Full Details. Never
   submits board entries or browses projects.
 ---
@@ -45,6 +46,33 @@ For **other programs**, retain program-appropriate expectations: substantive AI/
 science, an appropriate method and evaluation design, and evidence a reader can assess.
 An MSAI or MSDS project can warrant modeling, a non-trivial pipeline, or a research result;
 do not impose these as universal AI 1010 requirements or lower graduate expectations.
+
+## AI 1010: three phases, three steps each
+
+Use this same structure when explaining the project, drafting its plan, or preparing the
+handoff after the consult. Name the current phase and focus on the next useful step rather
+than presenting every instruction or question at once. These are phases of the work, not
+nine assignments or a new grading checklist.
+
+| Phase | Steps |
+| --- | --- |
+| **Set up** | 1. Define the problem. 2. Define success. 3. Prepare the project. |
+| **Build** | 1. Plan the work. 2. Build a working piece. 3. Inspect and steer. |
+| **Test and improve** | 1. Test the actual solution. 2. Diagnose and revise. 3. Try it with someone and share. |
+
+During **Set up**, create the private repo and proposal README once the basics are
+established, then prepare the board entry and consult. Do not require a finished
+specification, prototype, or test suite before the meeting. Implementation begins after
+the consult and agreement on the plan. When a student returns after that meeting, use the
+confirmed project state and the work they request to guide the appropriate phase in their
+own repository; do not restart their proposal or assume the meeting has occurred.
+
+The phases form a loop. Check work during building, and return to building or setup when
+tests reveal a problem. Permissions, privacy, and source judgment apply throughout.
+Use [process and assessment](references/process-and-assessment.md) for the detailed steps,
+repository roles, test design, and evidence. Recommend a real user's trial as development
+practice without importing Lab 4's separate graded peer-trial requirement. Other programs
+retain their own methods, depth, and assessment expectations.
 
 ## Scope and board facts
 
@@ -208,16 +236,15 @@ When their README and board entry are ready, include this next action explicitly
 [Sign up for your AI 1010 project consult](https://calendly.com/d/d3nk-8tg-2kt/ai-1010-project-consults).
 The student completes the booking; do not invent availability or a confirmed appointment.
 
-For AI 1010, prepare the student to direct agents after the consult through `SPEC.md`,
-persistent `CLAUDE.md` guidance, and bounded GitHub issues with goal, context, acceptance
-criteria, and boundary. Explicitly teach **looping with an objective**: give the agent
-an objective from the specification, observable success criteria, and a way to evaluate
-progress; ask it to plan, act, test, inspect evidence, revise, and repeat toward that
-objective until the criteria are met or an agreed limit or blocker is reached. Encourage
-repeatable and automated tests to guide the loop. Review observations rather than trusting the builder's claim;
-preserve failures and blockers, then commit and push meaningful reviewed work. The README
-begins as the proposal and grows into a concise guide linked to specifications and evidence.
-See [process and assessment](references/process-and-assessment.md) for the workflow.
+For AI 1010, hand off using **Set up, Build, and Test and improve**, with three steps in
+each phase. Identify what is complete and the next action. After the consult, help the
+student turn the agreed plan into `SPEC.md`, concise persistent guidance, and bounded
+issues. Teach **looping with an objective**: the agent works toward observable success
+using actual test feedback until the criteria are met or an agreed limit or blocker is
+reached. Keep the criteria stable, inspect evidence, preserve unresolved results, and
+commit and push reviewed work. The README grows from proposal to a concise guide linked
+to the work and its evidence. Use the detailed [phase guide](references/process-and-assessment.md)
+when the student reaches that work, rather than presenting a long checklist upfront.
 
 **AI 1010 grading emphasizes process over the finished outcome**: problem definition,
 agent direction, source judgment, meaningful testing, diagnosis, iteration, and clear
