@@ -68,11 +68,11 @@ meaningful tests, diagnosis, and iteration. See the
 Every ambitious feature need not work to demonstrate strong learning; polished output alone
 is not enough. Other programs retain their own requirements for methods, depth, and evaluation.
 
-It never submits anything for you. You sign in at the board, choose **Submit a Project →
+It never submits anything for you. Sign in at the [project board](https://bit.ly/vanderbilt-ai-projects), choose **Submit a Project →
 "A student, for myself"**, and paste each section in. A person reviews every student
 proposal.
 
-**Sharing your proposal means adding your project to the project board.** Put the private
+**Sharing your proposal means adding your project to the [project board](https://bit.ly/vanderbilt-ai-projects).** Put the private
 organization repository link in the board entry's **Full Details**. The one-page proposal
 lives in your project's README and guides your work; you do not need a separate document.
 

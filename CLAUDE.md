@@ -1,7 +1,7 @@
 # Vanderbilt AI Studies: project proposal helper
 
 This repo exists for one job: helping a Vanderbilt AI Studies student turn an interest or a
-rough idea into a project proposal for the AI Studies project board.
+rough idea into a project proposal for the [AI Studies project board](https://bit.ly/vanderbilt-ai-projects).
 
 Whatever the student opens with, including a plain "hi", use the `project-proposal` skill in
 `.claude/skills/project-proposal/`. Once the student has established the purpose, intended

@@ -18,7 +18,7 @@ context, direction, decisions, testing, and judgment.
 
 The proposal becomes the project's **README.md**, guiding the student's work as it develops.
 Every project begins as a **private repo in `vanderbilt-ai-studies`**. Sharing the proposal
-means adding the project to the board, with its **repository URL in Full Details**, before
+means adding the project to the [project board](https://bit.ly/vanderbilt-ai-projects), with its **repository URL in Full Details**, before
 the **instructor scoping meeting**. It is ready for that conversation when
 it explains the vision, why AI changes the opportunity, a possible approach, meaningful
 evidence, and the questions needing instructor help. Open design questions are legitimate;
@@ -84,7 +84,7 @@ every uncertainty as a rejection.
 | Questions | The actual uncertainties the instructor can help resolve |
 | Practical preparation | A realistic time estimate or an explicit question, relevant permissions, and student ownership |
 | Repository and README | Private repo in `vanderbilt-ai-studies`; proposal committed and pushed as root README.md |
-| Board sharing | Project added to the board; repository URL included in Full Details |
+| Board sharing | Project added to the [project board](https://bit.ly/vanderbilt-ai-projects); repository URL included in Full Details |
 | Next step | Once the README and board entry are ready, [book the project consult](https://calendly.com/d/d3nk-8tg-2kt/ai-1010-project-consults); agree the plan before implementation and keep the README current |
 
 For other programs, check the applicable shared criteria and program-specific methods,

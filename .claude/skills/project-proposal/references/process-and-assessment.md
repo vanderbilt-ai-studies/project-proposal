@@ -47,7 +47,7 @@ store there.
 
 Once the purpose, intended user, initial approach, and name are established, have Claude
 create your **private repo in `vanderbilt-ai-studies`** and push its initial README.
-Develop that README into your proposal, add the board entry with its repo URL in Full
+Develop that README into your proposal, add the [project board](https://bit.ly/vanderbilt-ai-projects) entry with its repo URL in Full
 Details, then book and complete the project consult and agree the plan **before
 implementation**. A finished specification, prototype, or test suite is not required
 for the consult. Report access problems to the course team rather than substituting a

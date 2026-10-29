@@ -76,7 +76,8 @@ retain their own methods, depth, and assessment expectations.
 
 ## Scope and board facts
 
-- Board link: **https://bit.ly/vanderbilt-ai-projects**.
+- Board link: **https://bit.ly/vanderbilt-ai-projects**. Include this direct link when
+  guiding a student to add or share their project; do not refer only to "the board".
 - Help develop the proposal, set up its private GitHub repository, and save the README.
   Never sign in to the board, submit or claim a board project, or book a meeting. The student
   completes necessary sign-ins; do not request credentials or imply you read the live board.
@@ -201,7 +202,7 @@ For other programs, use their program-appropriate proposal as the README as well
 
 ## Add the project to the board
 
-**Sharing the proposal means adding the project to the project board before the meeting.**
+**Sharing the proposal means adding the project to the [project board](https://bit.ly/vanderbilt-ai-projects) before the meeting.**
 Reuse the README's substance rather than requiring a second essay. Draft these board fields:
 
 | Field | Draft content |
@@ -228,7 +229,7 @@ would most improve it. Preserve the student's idea and voice. Use the applicable
 End with the concrete sequence: **private organization repo → proposal in README → board
 entry with the repo URL in Full Details → instructor meeting → implementation**. Reuse work
 already completed instead of asking the student to do it again. Direct the student to sign
-in at the board, choose **Submit a Project → A student, for myself**, paste the fields,
+in at the [project board](https://bit.ly/vanderbilt-ai-projects), choose **Submit a Project → A student, for myself**, paste the fields,
 and select the applicable semester/capstone setting. They monitor **My Submissions** for
 human feedback and edit/resubmit if asked. AI 1010 students book and complete the meeting
 and agree the plan before building; a chat draft or repo alone has not shared the proposal.
