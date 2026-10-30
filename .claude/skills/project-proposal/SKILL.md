@@ -7,7 +7,8 @@ description: >-
   MSDS students, develop a program-appropriate proposal for the project board.
   Helps set up a private organization repo, makes the
   proposal its README, and drafts board fields with the repo link in Full Details. Never
-  submits board entries or browses projects.
+  submits board entries or browses projects. Calls the bundled agent-issue-authoring
+  skill when the student begins drafting, reviewing, or splitting development issues.
 ---
 
 # Project Proposal
@@ -73,6 +74,28 @@ Use [process and assessment](references/process-and-assessment.md) for the detai
 repository roles, test design, and evidence. Recommend a real user's trial as development
 practice without importing Lab 4's separate graded peer-trial requirement. Other programs
 retain their own methods, depth, and assessment expectations.
+
+## When the student begins authoring issues
+
+When the student asks to draft, revise, review, scope, or split development issues,
+**invoke the bundled `agent-issue-authoring` skill** by reading and following
+[its SKILL.md](references/agent-issue-authoring/SKILL.md) and the references it calls
+for. Use the student's actual project context and existing decisions; continue in
+their project repository. This applies to software, skills, research, and other
+solutions. Do not merely link the helper or give generic issue advice.
+
+The bundle is self-contained, so the issue-authoring handoff does not depend on a
+second installation or network retrieval. If the runtime exposes it as a named
+skill, invoke it; otherwise follow the bundled SKILL.md directly. Its canonical
+source and student guide are at
+https://github.com/vanderbilt-ai-studies/agent-issue-authoring.
+
+Reuse an established proposal and consult state. An issue draft can prepare a
+discussion, but it does not authorize implementation before the AI 1010 consult
+and agreed plan. Do not require a finished backlog before that meeting. A passing
+mention of issues is not a reason to interrupt idea development. Drafting or
+reviewing an issue does not itself authorize posting, assignment, or implementation;
+carry out a GitHub write when the user explicitly requests it.
 
 ## Scope and board facts
 

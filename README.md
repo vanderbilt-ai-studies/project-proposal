@@ -40,6 +40,20 @@ Begin implementation after the consult and agreement on the plan. See the
 [phase guide](.claude/skills/project-proposal/references/process-and-assessment.md)
 for the details. Other programs retain their own project requirements.
 
+## Write issues that steer the development agent
+
+When you begin drafting, reviewing, or splitting development issues, this helper
+calls its bundled [agent-issue-authoring skill](.claude/skills/project-proposal/references/agent-issue-authoring/SKILL.md).
+It uses your project's purpose, specification, actual files, and decisions to help
+define a bounded outcome, observable acceptance criteria, checks, and stopping
+conditions. It does not start implementation merely because you ask for a draft.
+
+Read the [one-page guide and canonical skill repository](https://github.com/vanderbilt-ai-studies/agent-issue-authoring).
+The full issue helper ships inside the project-proposal skill folder, including
+its references, so it works when that folder is copied on its own. For AI 1010,
+implementation still follows your consult and the agreed plan; an issue backlog
+is not a prerequisite for the meeting.
+
 ## What you get
 
 A conversation that helps you:

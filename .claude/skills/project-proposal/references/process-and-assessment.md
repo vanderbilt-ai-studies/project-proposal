@@ -70,6 +70,11 @@ Claude help develop the specification, agent guidance, and evidence structure:
 
 ### 1. Plan the work
 
+For issue drafting, review, scoping, or decomposition, invoke the bundled
+[agent-issue-authoring skill](agent-issue-authoring/SKILL.md). It carries the
+[student guide](https://github.com/vanderbilt-ai-studies/agent-issue-authoring)
+and adapts its advice to the actual project and decisions already made.
+
 Turn the agreed specification into bounded issues with a **goal, context, acceptance
 criteria, and limits**. Review the proposed plan, correct consequential assumptions, and
 choose one useful piece to implement. Give the agent enough authority to work within the

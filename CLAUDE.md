@@ -1,5 +1,12 @@
 # Vanderbilt AI Studies: project proposal helper
 
+When the user begins authoring, reviewing, scoping, or splitting project issues,
+the project-proposal skill must call its bundled
+`references/agent-issue-authoring/SKILL.md`. Work in the user's project, preserve
+the proposal/consult state, and follow the issue helper's draft-versus-execution
+boundary. The bundle's canonical repository is
+https://github.com/vanderbilt-ai-studies/agent-issue-authoring.
+
 This repo exists for one job: helping a Vanderbilt AI Studies student turn an interest or a
 rough idea into a project proposal for the [AI Studies project board](https://bit.ly/vanderbilt-ai-projects).
 
